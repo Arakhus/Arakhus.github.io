@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+        }
+        ul{
+            margin: 0;
+        }
+        h1{
+            margin: 0;
+        }
+
+        .d-flex{
+            display: flex;
+        }
+        .justify-content-end{
+            justify-content: flex-end;
+        }
+        .margin-r-40{
+            margin-right: 40px;
+        }
+        .padding-x-8{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .margin-x-65{
+            margin-left: 65px;
+            margin-right: 65px;
+        }
+        .tx-sz-28{
+            font-size: 28px ;
+        }
+        .tx-sz-18{
+            font-size: 18px ;
+        }
+        .primary-color{
+            color: #016364;
+        }
+        .align-items-end{
+            align-items: flex-end;
+        }
+        .underline{
+            border-bottom: 4px solid  transparent;
+            transition: all s0.3s;
+        }
+        .underline:hover{
+            border-bottom: 4px solid  #016364;
+        }
+        .cursor-pointer{
+            cursor: pointer;
+        }
+        .nowarp{
+            white-space: nowrap;
+        }
+        .w-100p{
+            width: 100%;
+        }
+        .pb-52{
+            padding-bottom: 52px;
+        }
+        .mb-52{
+            margin-bottom: 52px;
+        }
+        .px-16{
+            padding: 0 16px;
+        }
+        .pb-16{
+            padding-bottom: 16px;
+        }
+        .mx-16{
+            margin: 0 16px;
+        }
+        .p-16{
+            padding: 16px;
+        }
+        .mx-auto{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container{
+            max-width: 1600px;
+        }
+        .w-one_third{
+            width: 33.3333333%;
+        }
+        .card-wrapper{
+            border: 1px solid #eee;
+            transition: all 0.7s;
+            border-radius: 15px;
+        }
+        .card-wrapper:hover{
+            border: 1px solid #eee;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+            transform:  scale(1.05);
+        }
+        .font-sans{
+            font-family: sans-serif;
+        }
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+        
+    </style>
+</head>
+<body>
+    <header style="font-family: sans-serif">
+        <div  class="d-flex justify-content-end margin-r-40">
+            <a class="padding-x-8" href="">網站導覽</a>
+            <a class="padding-x-8" href="">菁英招募</a>
+            <a class="padding-x-8" href="">公告</a>
+            <a class="padding-x-8" href="">語系</a>
+        </div>
+        <div class="d-flex margin-x-65 align-items-end">
+            <h1 class="cursor-pointer">
+                <img src="./itrilogo.svg" alt="">
+            </h1>
+            <div>
+                <ul class="d-flex margin-r-40 primary-color">
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointer nowarp">尖端科技</li>
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointer nowarp">產業服務</li>
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointer nowarp">國際合作</li>
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointerz nowarp">新聞中心</li>
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointer nowarp">關於我們</li>
+                    <li class="tx-sz-28 margin-r-40 underline cursor-pointer nowarp">線上展示館</li>
+                </ul>
+            </div>
+            <div>
+                <span class="material-symbols-outlined primary-color"> search </span>
+            </div>
+        </div>
+
+    </header>
+    <section class="mb-52">
+        <div>
+            <img class="width-100p" src="./ces2023.jpeg" alt="">
+        </div>
+    </section>
+    <section class="container mx-auto tx-sz-28 primary-color font-sans">
+        <div  class="d-flex flex-wrap">
+            <div class="p-16 w-one_third">
+                <div class="card-wrapper">
+                    <div>
+                        <img class="w-100p" src="./card1.jpeg" alt="">
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        2022-11-03
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        經濟部三大創舉催生眼科藥物創新基地　工研院攜手信力生技集團　快速搶進眼藥臨床試驗拚上市...
+                    </div>
+                </div>
+            </div>
+            <div class="p-16 w-one_third">
+                <div class="card-wrapper">
+                    <div>
+                        <img class="w-100p" src="./card2.jpeg" alt="">
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        2022-11-11
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        工研院頒第十一屆新任院士　匯聚產業巨擘　蔡總統期許以科技力提升競爭力...
+                    </div>
+                </div>
+            </div>
+            <div class="p-16 w-one_third">
+                <div class="card-wrapper">
+                    <div>
+                        <img class="w-100p" src="./card3.jpeg" alt="">
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        2022-11-03
+                    </div>
+                    <div class="tx-sz-18 px-16 pb-16">
+                        國際知名創新論壇HLF芬蘭登場  工研院七度參加  唐鳳部長受邀擔任開幕主講貴賓...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>  
