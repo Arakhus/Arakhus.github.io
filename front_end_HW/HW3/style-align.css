@@ -1,0 +1,22 @@
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-end{
+    align-items: flex-end;
+}
