@@ -34,6 +34,15 @@
     padding-left: 8px;
     padding-right: 8px;
 }
+.p-8-0{
+    padding: 8px 0px;
+}
+.p-4-16{
+    padding: 4px 16px;
+}
+.p-4-8{
+    padding: 4px 8px;
+}
 /* ---------------------- */
 .pb-32{
     padding-bottom: 32px;
@@ -49,13 +58,6 @@
 }
 .pl-368{
     padding-left: 368px;
-}
-/* ---------------------- */
-.p-album-title{
-    padding: 4px 16px;
-}
-.p-album-difficulty{
-    padding: 4px 8px;
 }
 
 /* ====================== */

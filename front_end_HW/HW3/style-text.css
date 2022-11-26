@@ -3,35 +3,43 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
+.text-nowrap{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
 .font-sans{
     font-family: sans-serif;
 }
 
-.tx-sz-28{
+.font-sz-28{
     font-size: 28px ;
 }
-.tx-sz-18{
+.font-sz-18{
     font-size: 18px ;
 }
-.tx-32{
+.font-32{
     font-size: 32px;
 }
-.tx-20{
+.font-20{
     font-size: 20px;
 }
-.tx-16{
+.font-16{
     font-size: 16px;
 }
 
-.tx-banner{
+.font-banner{
     color: #FFF;
     font-size: 48px;
 }
 
-.tx-item-title{
+.font-item-title{
     color: #343A40;
     font-size: 32px;
     font-family: sans-serif;
@@ -41,29 +49,35 @@
     font-weight: 700;
 
 }
-.tx-album-title{
+.font-album-title{
     color: #343A40;
     font-size: 18px;
     font-weight: 700;
     
 }
 
-.tx-album-difficulty{
+.font-album-lv{
+    font-family: 'Noto Sans';
+    font-style: normal;
     color: #fff;
-    font-size: 10px;
-    font-weight: 700;
-    background-color: #198754;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    
     justify-items: center;
     align-items: center;
-    }
+}
 
-.tx-album-content{
+.font-album-content{
+    font-family: 'Noto Sans';
+    font-style: normal;
     color: #343A40;
     font-size: 14px;
+    line-height: 19px;
     font-weight: 400;
 }
 
-.tx-section-title{
+.font-section-title{
     font-family: 'Noto Sans';
     font-style: normal;
     color: #343A40;

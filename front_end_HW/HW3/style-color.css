@@ -9,10 +9,16 @@
     color: #016364;
 }
 .bg-r{
-    background-color: rgb(248, 213, 213);
+    background-color:#dc3545;
 }
 .bg-b{
     background-color: rgb(99, 197, 247);
+}
+.bg-yellow{
+    background-color: #ffc107;
+}
+.bg-g{
+    background-color: #198754;
 }
 .bg-light-gray{
     background-color: #6C757D;
