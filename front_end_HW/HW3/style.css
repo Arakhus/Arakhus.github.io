@@ -54,7 +54,16 @@ h1{
     padding: 389px 0 0 0;
 
 }
-
+.bg-arrow{
+    background-image: url(./img/arrow.svg);
+    /* height: 810px; */
+    background-repeat: no-repeat;
+    background-size: 12px 8px;
+    right: 10px;
+    align-items: center;
+    padding-right: 0;
+    background-position: center right 12px;
+}
 .bg-mt2{
     background-image: url(./img/mt2.png);
     background-size: 100%;
