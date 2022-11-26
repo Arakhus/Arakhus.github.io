@@ -1,0 +1,19 @@
+/* color */
+.bg-gray-800{
+    background-color: #A4AAA0;
+}
+.bg-white-trans{
+    background-color: rgba(255,255,255,0.7);
+}
+.primary-color{
+    color: #016364;
+}
+.bg-r{
+    background-color: rgb(248, 213, 213);
+}
+.bg-b{
+    background-color: rgb(99, 197, 247);
+}
+.bg-light-gray{
+    background-color: #6C757D;
+}

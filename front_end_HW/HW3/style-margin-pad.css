@@ -1,18 +1,75 @@
+.p-16{
+    padding: 16px;
+}
+.p-12{
+    padding: 12px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-6-12{
+    padding: 6px 12px;
+}
+.p-24-12{
+    padding: 24px 12px;
+}
+/* ---------------------- */
+.m-y-16{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.p-y-32{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.p-y-4{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.p-x-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.p-x-8{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* ---------------------- */
+.pb-32{
+    padding-bottom: 32px;
+}
 .pb-52{
     padding-bottom: 52px;
-}
-.mb-52{
-    margin-bottom: 52px;
-}
-
-.p-album-title{
-    padding: 4px 16px;
 }
 .pb-16{
     padding-bottom: 16px;
 }
+.pt-56{
+    padding-top: 56px;
+}
+.pl-368{
+    padding-left: 368px;
+}
+/* ---------------------- */
+.p-album-title{
+    padding: 4px 16px;
+}
+.p-album-difficulty{
+    padding: 4px 8px;
+}
+
+/* ====================== */
+/* ====================== */
+
+
+
+/* ---------------------- */
+
 .mb-16{
     margin-bottom: 16px;
+}
+.mb-52{
+    margin-bottom: 52px;
 }
 .ml-24{
     margin-left: 24px;
@@ -20,8 +77,19 @@
 .mx-16{
     margin: 0 16px;
 }
-.p-16{
-    padding: 16px;
+.mx-12{
+    margin: 0 12px;
+}
+.ml-16{
+    margin-left: 16px;
+}
+.mx-m16{
+    margin-left: -16px;
+    margin-right: -16px
+}
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
 }
 .mr-24{
     margin-right: 24px;
@@ -32,26 +100,16 @@
 .m-16{
     margin: 16px;
 }
-.m-y-16{
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
+
 .m-auto{
     margin: auto;
 }
 .margin-r-40{
     margin-right: 40px;
 }
-.padding-x-8{
-    padding-left: 8px;
-    padding-right: 8px;
-}
 .margin-x-65{
     margin-left: 65px;
     margin-right: 65px;
-}
-.p-12{
-    padding: 12px;
 }
 .mx-auto{
     margin-left: auto;
@@ -64,20 +122,11 @@
 .mt-20{
     margin-top: 20px;
 }
-.p-y-32{
-    padding-bottom: 32px;
-    padding-top: 32px;
-    
+
+.my-35{
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
-.p-y-4{
-    padding-bottom: 4px;
-    padding-top: 4px;
-    
-}
-.p-x-12{
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.pb-32{
-    padding-bottom: 32px;
+.mt-48{
+    margin-top: 48px;
 }
