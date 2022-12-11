@@ -1,0 +1,55 @@
+
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    .card-w{
+        width: 50%;
+    }
+    
+}
+@media (min-width: 768px) {
+
+    .md-hidden{
+        display: none;
+    }
+    .md-d-flex{
+        display: flex;
+    }
+    .container{
+        max-width: 720px;
+    }
+    .font-banner{
+        color: #FFF;
+        font-size: 48px;
+        font-family: 'Noto Sans';
+        font-weight: 700;
+    }
+    .md-pt-56{
+        padding-top: 56px;
+    }
+    .md-pl-368{
+        padding-left: 368px;
+    }
+    .card-w{
+        width: 33.3333%;
+    }
+}
+ 
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+    .card-w{
+        width: 25%;
+    }
+    
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1140px;
+    }
+    
+}

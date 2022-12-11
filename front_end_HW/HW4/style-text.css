@@ -1,0 +1,155 @@
+.text-wrapper{
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.text-nowrap{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+.font-sans{
+    font-family: sans-serif;
+}
+
+.font-sz-28{
+    font-size: 28px ;
+}
+.font-sz-18{
+    font-size: 18px ;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-16{
+    font-size: 16px;
+}
+
+.font-banner{
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+}
+
+.font-item-title{
+    color: #343A40;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.font-weight-bold{
+    font-weight: 700;
+}
+
+.font-album-title{
+    color: #343A40;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.font-album-lv{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    
+    justify-items: center;
+    align-items: center;
+}
+
+.font-album-content{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    color: #343A40;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.font-section-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    color: #343A40;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+
+.footer-underline{
+    text-decoration: none;
+
+}
+.footer-underline:hover{
+    text-decoration: underline;
+}
+
+.font-form-item{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #212529;
+}
+
+.font-form-content{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212529;
+}
+.font-option{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.font-footer{
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 27px; */
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.font-footer-link{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F8F9FA;
+}
+.material-symbols-outlined {
+
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+
+        
+}
+
+.hidden{
+    display: none;
+}
+
