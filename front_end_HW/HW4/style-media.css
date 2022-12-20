@@ -8,6 +8,26 @@
     .card-w{
         width: 50%;
     }
+    .form-w{
+        width: 50%;
+    }
+    .md-w-280{
+        width: 280px;
+    }
+    .md-max-50p{
+        max-width: 50%;
+    }
+    .md-576-hidden{
+        display: none;
+    }
+    .md-flex-wrap{
+        flex-wrap: wrap;
+    }
+    .md-flex-nowrap{
+
+        flex-wrap: nowrap;
+    }
+    
     
 }
 @media (min-width: 768px) {
@@ -36,6 +56,10 @@
     .card-w{
         width: 33.3333%;
     }
+    .md-768-inset-0{
+        position: absolute;
+        inset: 0;
+    }
 }
  
 @media (min-width:992px) {
@@ -45,11 +69,12 @@
     .card-w{
         width: 25%;
     }
+
     
 }
 @media (min-width:1200px) {
     .container{
         max-width: 1140px;
     }
-    
+
 }

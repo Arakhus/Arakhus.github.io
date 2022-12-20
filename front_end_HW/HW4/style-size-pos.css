@@ -18,6 +18,9 @@
 .ht-76{
     height: 76px;
 }
+.h-100p{
+    height: 100%;
+}
 .w-200{
     width: 200px;
 }
@@ -26,6 +29,9 @@
 }
 .position-sticky{
     position: sticky;
+}
+.pos-fixed{
+    position: fixed;
 }
 .width-50p{
     width: 50%;
@@ -56,11 +62,13 @@
 }
 
 .right-0{
-    position: absolute;
     right: 0;
 }
+.left-0{
+    left: 0;
+}
+
 .bottom-29{
-    position: absolute;
     bottom: 29;
 }
 .z-10 {
@@ -69,4 +77,13 @@
 
 .card-w{
     width: 100%;
+}
+.form-w{
+    width: 100%;
+}
+.pos-abs{
+    position: absolute;
+}
+.min-50p{
+    min-width: 50%;
 }
