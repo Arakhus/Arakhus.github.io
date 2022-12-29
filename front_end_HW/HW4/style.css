@@ -239,11 +239,7 @@ h1{
     appearance: none;
 }
 
-.rect-footer-link{
-    width: 2px;
-    height: 16px;
-    background-color: #f8f9fa;
-}
+
 
 .pos-abs{
     position: absolute;

@@ -1,10 +1,11 @@
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
     .container{
         max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    margin-left: auto;
-    margin-right: auto;
+
     .card-w{
         width: 50%;
     }
@@ -24,11 +25,18 @@
         flex-wrap: wrap;
     }
     .md-flex-nowrap{
-
         flex-wrap: nowrap;
     }
     
-    
+    .md-d-flex{
+        display: flex;
+    }
+    .md-rect-footer-link{
+        width: 2px;
+        height: 16px;
+        background-color: #f8f9fa;
+    }
+
 }
 @media (min-width: 768px) {
 
